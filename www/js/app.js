@@ -26,7 +26,7 @@ angular.module('starter', ['ionic'])
   $stateProvider
 
     .state('lista', {
-    url: '',
+    url: '/lista',
     abstract: true,
     templateUrl: 'views/lista.html',
     controller: 'listController as ctrl'
@@ -37,7 +37,7 @@ angular.module('starter', ['ionic'])
     url: '/detalles/:cantante',
     abstract: true,
     templateUrl: 'views/detalles.html',
-    controller: 'datailstroller as ctrl'
+    controller: 'detailstroller as ctrl'
     });
 
     $urlRouterProvider.otherwise('/');

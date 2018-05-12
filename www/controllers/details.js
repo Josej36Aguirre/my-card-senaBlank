@@ -1,4 +1,4 @@
-angular.module('starter').controller('datailstroller', function($state){
+angular.module('starter').controller('detailstroller', function($state){
 
 	var vm = this;
 	var cantantesName = $state.params.cantante;
